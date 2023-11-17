@@ -7,7 +7,7 @@
 
 }
 header{
-    background-image: url('/img/food.png'); 
+    background-image: url('./img/food.png'); 
     width: 1440px;
     height: 785px;
     margin: 0 auto;
@@ -233,7 +233,7 @@ h3{
     line-height: 27px;
 }
 .section_Fast_Delivery{
-    background-image: url('/img/Fast_Dev.png');
+    background-image: url('./img/Fast_Dev.png');
      width: 1440px;
      height: 700px;
 }
