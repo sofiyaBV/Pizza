@@ -3,6 +3,8 @@
     margin:0 ;
     font-family: 'Inter', sans-serif;
     color: #3C3C3C ;
+    font-style: normal;
+
 }
 header{
     background-image: url('/img/food.png'); 
@@ -10,13 +12,15 @@ header{
     height: 785px;
     margin: 0 auto;
 }
-h2{
+.h2_TammyFood{
     width: 199px;
     height: 39px;
     margin-top: 29px;
     margin-left: 133px;
     font-size: 32px;
-    font-weight: 100px;
+    font-weight: 700px;
+    font-style: normal;
+    line-height: normal;
 }
 span{
     color: #FCC647;
@@ -24,6 +28,11 @@ span{
 .a_home{
     color: #FCC647;
     margin-left: 281px;
+    font-family: 'Segoe UI' ; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
 }
 .cap{
     list-style-type: none;
@@ -37,40 +46,25 @@ span{
     float: left;
 }
 .li_cap{
+    margin-top: 38px;
+}
+.a_no_underline{
+    text-decoration: none;
     font-family: 'Segoe UI' ; 
     font-size: 20px;
     font-style: normal;
     font-weight: 700px;
     line-height: normal;
-    margin-top: 38px;
-}
-.a_no_underline{
-    text-decoration: none;
 }
 .btn_Fast_Delivery{
     width: 105px;
     height: 15px;
-    color: #F4B41B;
     font-size: 16.625px;
-    font-family: 'Inter';
     font-weight: 600;
     line-height: 14.25px;
-    display: flex;
     padding:  11px 20.875px 11px 20.875px; 
-    align-items: center;
-    gap: 8.313px;
     border-radius: 7.125px;
-    background: #FFF2D4;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 9.5px;
-    text-decoration: none;
 
-}
-main {
-    display: flex;
 }
 .container {
     display: flex;
@@ -90,22 +84,21 @@ main {
     margin-top: 12.25px;
     margin-left: 136px;
     width: 573px;
-height: 149px;
+    height: 149px;
 }
 .p_home{
     width: 507px;
-height: 125px;
-    /* margin-top: 30px; */
+    height: 125px;
     margin-left: 136px;
     color: #667085;
-font-family: 'Inter';
-font-size: 16px;
-font-style: normal;
-font-weight: 400px;
-line-height: 32px;
-width: 507px;
-height: 125px;
-flex-shrink: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 32px;
+    width: 507px;
+    height: 125px;
+    flex-shrink: 0;
 }
 .food_img{
     margin-top: 158.11px;
@@ -118,25 +111,19 @@ flex-shrink: 0;
 }
 .btn_Get_Started{
     margin-top: 27px;
-
     width: 106px;
-height: 24px;
-flex-shrink: 0;
-
-color: #FFF;
-
-font-family: 'Inter';
-font-size: 19px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-    gap: 8.313px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     border-radius: 40px;
     background: #FFC12F;
     display: inline-flex;
     text-decoration: none;
     padding:  15px 20px 13px 20px; 
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -145,10 +132,164 @@ line-height: normal;
     margin-top: 13px;
 }
 .btn_video{
-display: flex;
-text-decoration: none;
-
+    display: flex;
+    text-decoration: none;
 }
 .p_video{
     margin-top: 43px;
+}
+main{
+    width: 1440px;
+    height: 4493px;
+    margin: 0 auto;
+}
+h2{
+    height: 42px;
+    font-family: 'Segoe UI';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.h2_Works{
+    margin-top: 96px;
+    margin-left: 607px;
+    width: 231px;
+}
+.p_Works{
+    color: #667085;
+    margin-top: 30px;
+    margin-left: 459px;
+    width: 505px;
+    height: 125px;
+    color: #667085;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.img_icons{
+    margin-top: 14px;
+    margin-left: 269px;
+}
+h3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.div_icons{
+    margin-left: 260px;
+    display: flex;
+    gap: 317px;
+    height: 26px;
+}
+.h3_Get{
+    margin-top: 40px;
+}
+.div_p_icons{
+    gap: 80px;
+    color: #667085;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    height: 169px;
+}
+.p_Order_Now{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 325px;
+}
+.p_Get{
+    margin-top: 59px;
+    width: 324px;
+}
+.p_Payment{
+    width: 322px;
+    margin-top: 20px;
+
+}
+.h2_Our{
+    width: 313px;
+    height: 42px;
+    margin-top: 44px;
+    margin-left: 564px;
+    width: 313px;
+}
+.p_Our{
+    margin-top: 16px;
+    margin-left: 488px;
+    width: 465px;
+    height: 47px;
+    color: #667085;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.section_Fast_Delivery{
+    background-image: url('/img/Fast_Dev.png');
+     width: 1440px;
+     height: 700px;
+}
+.btn_Our{
+    margin-top: 90px;
+    margin-left: 765px;
+    font-size: 14px;
+    line-height: 14.25px;
+    padding:  10px 18px 10px 18px; 
+    border-radius: 6px;
+}
+.btn{
+    color: #EF9737;
+    font-weight: 600;
+    line-height: 14.25px;
+    background: #FFEFC8;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.h2_Our2{
+    width: 565px;
+    height: 123px;
+    margin-top: 13px;
+    margin-left: 765.5px;
+    color: #535353;
+    font-family: 'Segoe UI';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.p_Our2{
+    width: 537px;
+height: 260px;
+margin-left: 766.5px;
+color: #667085;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+
+}
+.btn_Order_Now{
+    margin-top: 30px;
+    margin-left: 767px;
+    width:121px;
+    height: 12px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    background: #FFC12F;
+    padding:  19px 16px 19px 16px; 
 }
