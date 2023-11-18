@@ -387,7 +387,7 @@ h3{
 }
 footer{
     width: 1440px;
-    height: 542px;
+    height: 550px;
     margin: 0 auto;
     margin-top: 243px;
     background-color: #232233;
@@ -398,21 +398,21 @@ footer{
     width: 1170px;
     height: 230px;  
     border-radius: 30px;
-background: #FFF;
-margin-left: 141px;
-display: flex;
-position:absolute;
-bottom: 430px;
--webkit-box-shadow: -1px 8px 152px 30px rgba(0,0,0,0.34);
--moz-box-shadow: -1px 8px 152px 30px rgba(0,0,0,0.34);
-box-shadow: -1px 8px 152px 30px rgba(0,0,0,0.34);
+    background: #FFF;
+    margin-left: 141px;
+    display: flex;
+    position:absolute;
+    bottom: 450px;
+    -webkit-box-shadow: -1px 8px 152px 30px rgba(0,0,0,0.34);
+    -moz-box-shadow: -1px 8px 152px 30px rgba(0,0,0,0.34);
+    box-shadow: -1px 8px 152px 30px rgba(0,0,0,0.34);
 }
 .link article{
     height: 100px;
     border-right: 4px solid #E6E6E6;
     margin-left: 94px;
-margin-top: 65px;   
-display: flex;
+    margin-top: 65px;   
+    display: flex;
 }
 .link article:last-child{
     border-right: none;
@@ -429,9 +429,13 @@ display: flex;
     margin-right: 94px;
 }
   .reference{
+    width: 1167px;
     display: flex;
     font-style: normal;
     position: relative;
+    margin-left: 142px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 52px;
 
   }
   .reference h3{
@@ -444,7 +448,6 @@ display: flex;
     width: 331px;
     height: 200px;
     margin-top: 245px;
-    margin-left: 142px;
     position: relative;
 
   }
@@ -530,14 +533,27 @@ li{
 }
 .email_field{
     width: 345px;
-height: 50px;
-margin-top: 33px;
-border-radius: 4px;
-background: #FFF;
-padding-left: 18px;
+    height: 50px;
+    margin-top: 33px;
+    border-radius: 4px;
+    background: #FFF;
+    padding-left: 18px;
 }
 .send{
     position: absolute;
     margin-top:37px;
     margin-right: 0px;
+}
+.copyright_text{
+    display: flex;
+    margin-left: 523px;
+    margin-top: 18px;
+}
+.copyright_text p{
+     margin-left:10px ;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
 }
