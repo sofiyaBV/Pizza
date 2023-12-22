@@ -334,7 +334,7 @@ h3{
  }
  /* ---------------------- */
 .section_Fast_Delivery{
-    margin-top: 244px;
+    margin-top: 15vw;
     /* background-image: url('../img/Fast_Dev.png'); */
     background-color: var(--bacgraund_fon);
     width: 100%;
@@ -657,4 +657,34 @@ li{
     margin-top: 0.5vw;
     width: 1vw;
     height: 1vw;
+}
+/* ---------------- */
+@media screen and (max-width: 938px) {
+    .btn_fast{
+        padding: 0.8vw 0.8vw ;
+    }
+    .btn_Get_Started{
+        padding: 0.1vw 0.8vw ;
+    }
+    .btn_Our{
+        padding: 0.3vw 0.8vw ;
+    }
+    .btn_Order_Now{      
+          padding: 0.5vw 0.8vw ;
+    }
+    .pizza_choice div {
+        height: 20vw;
+       
+     }
+}
+@media screen and (max-width: 768px) {
+    svg{
+        padding-right: 1.2vw;
+        padding-left: 1.2vw;
+    }
+}
+@media screen and (max-width: 608px) {
+    .pizza_choice div {
+        height: 24vw;
+     }
 }
